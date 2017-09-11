@@ -1,0 +1,66 @@
+.heading {
+  height: 20%;
+  padding-left: 5%;
+  font-size: 20pt;
+}
+.heading h1,h2 {
+  margin: 0;
+  padding:5px;
+}
+h2 {
+  color: blue;
+}
+#code > pre {
+  width: 100%;
+}
+div #code {
+  display: flex;
+  justify-content: center;
+}
+
+#code {
+height: 100%;
+width:90%;
+border:2px solid #ccc;
+font:40px Georgia, Garamond, Serif;
+overflow:scroll;
+background-color: #EEEEEE;
+}
+
+
+html,body {
+  height: 93%;
+  margin: 0;
+  padding: 0;
+
+}
+.codeblock {
+display: flex;
+height: 69%;
+justify-content: center;
+  margin-bottom:3% ;
+  padding: 0;
+
+}
+.outputblock {
+display: flex;
+height: 9%;
+justify-content: center;
+  margin-bottom:3% ;
+  padding: 0;
+
+}
+.trybutton {
+  display: flex;
+  justify-content: center;
+
+}
+div button {
+  font-size: 40px;
+  padding: 5px 15px 5px 15px;
+
+
+}
+a {
+  font-size:25pt;
+}

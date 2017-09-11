@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script>
+function myFunction() {
+  var x=prompt("Enter some String ");
+  var y=prompt("enter the string to find its index");
+  var output=x.indexOf(y);
+
+  document.getElementById('output').innerText=output;
+}
+
+</script>
+<div class="heading">
+  <h1><u>String Manipulation</u></h1>
+  <h2>indexOf()</h2>
+</div>
+<div class="codeblock">
+<div id="code" >
+ <pre id="code1">
+ <u>Code:</u>
+ var x=prompt("Enter some String ");
+ var y=prompt("enter the string to find its index");
+ var output=x.indexOf(y);
+
+ document.getElementById('output').innerText=output;
+</pre>
+</div>
+</div>
+
+<div class="outputblock">
+<div id="code" >
+ <pre id="output">
+   <u>Output</u>
+
+</pre>
+</div>
+</div>
+
+
+<div class="trybutton">
+<button onclick="myFunction()">try</button>
+</div>
+
+<a href="/">Back</a>
+</html>
