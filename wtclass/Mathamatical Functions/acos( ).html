@@ -5,30 +5,24 @@
 </head>
 <script>
 function myFunction() {
-  var x=prompt("Enter some String ");
-  var y=prompt("Enter a index  ");
-  var z=prompt("enter the length of string to be printed starting from your specified index")
-  var output=x.substr(y,z);
-
+  var x=prompt("enter a value");
+  var output=Math.acos(x);
   document.getElementById('output').innerText=output;
+  console.log(x);
 }
 
 </script>
 <div class="heading">
-  <h1><u>String Manipulation</u></h1>
-  <h2>substr()</h2>
+  <h1><u>Mathematical Functions</u></h1>
+  <h2>acos()</h2>
 </div>
 <div class="codeblock">
 <div id="code" >
  <pre id="code1">
  <u>Code:</u>
- var x=prompt("Enter some String ");
- var y=prompt("Enter a index  ");
- var z=prompt("enter the length of string to be printed starting from your specified index")
- var output=x.substr(y,z);
-
+ var x=prompt("enter a value");
+ var output=Math.acos(x);
  document.getElementById('output').innerText=output;
-}
 </pre>
 </div>
 </div>

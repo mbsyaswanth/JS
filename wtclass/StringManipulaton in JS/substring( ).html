@@ -5,20 +5,29 @@
 </head>
 <script>
 function myFunction() {
-  var x=prompt("enter some thing");
-  document.getElementById('output').innerText=x;
-  console.log(x);
+  var x=prompt("Enter some String ");
+  var y=prompt("Enter a start index  ");
+  var z=prompt("enter a end index")
+  var output=x.substring(y,z);
+
+  document.getElementById('output').innerText=output;
 }
 
 </script>
 <div class="heading">
-  <h1><u>heading goes here</u></h1>
-  <h2>method_name()</h2>
+  <h1><u>String Manipulation</u></h1>
+  <h2>substring()</h2>
 </div>
 <div class="codeblock">
 <div id="code" >
  <pre id="code1">
  <u>Code:</u>
+ var x=prompt("Enter some String ");
+ var y=prompt("Enter a start index  ");
+ var z=prompt("enter a end index")
+ var output=x.substring(y,z);
+
+ document.getElementById('output').innerText=output;
 </pre>
 </div>
 </div>
@@ -37,5 +46,5 @@ function myFunction() {
 <button onclick="myFunction()">try</button>
 </div>
 
-<a href="/">Back<a>
+<a href="/">Back</a>
 </html>
