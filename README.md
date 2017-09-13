@@ -48,4 +48,20 @@ Mathematical Functions
 
 
 
+Statements
+===========
+
+* [eval()](https://mbsyaswanth.github.io/JS/wtclass/Statements/eval(%20).html)
+
+* [for](https://mbsyaswanth.github.io/JS/wtclass/Statements/for.html)
+
+* [if-else](https://mbsyaswanth.github.io/JS/wtclass/Statements/if-else.html)
+
+* [switch](https://mbsyaswanth.github.io/JS/wtclass/Statements/switch.html)
+
+* [while](https://mbsyaswanth.github.io/JS/wtclass/Statements/while.html)
+
+
+
+
 
